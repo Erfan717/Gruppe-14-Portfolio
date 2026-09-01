@@ -1,4 +1,4 @@
-# Gruppe 6 Portfolio
+# Gruppe 14 Portfolio
 
 En statisk portefoljeside for Gruppe 6.
 

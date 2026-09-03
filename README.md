@@ -10,4 +10,7 @@ Apne `index.html` direkte i nettleseren, eller start en lokal server fra prosjek
 python3 -m http.server 8000
 ```
 
-Legg presentasjonsvideoen deres i `assets/group-presentation.mp4`. Kontaktskjemaet viser en bekreftelse lokalt; for a motta meldinger ma skjemaet senere kobles til en backend eller skjematjeneste.
+Legg presentasjonsvideoen deres i `assets/group-presentation.mp4`.
+
+Kontaktsiden bruker en `mailto:`-lenke og trenger ingen server eller
+skjematjeneste - besokende sender e-post fra sitt eget e-postprogram.

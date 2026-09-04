@@ -44,6 +44,30 @@ h3 { font-size: 1.25rem; }
 .section-head p { max-width: 430px; margin: 0; color: var(--muted); }
 .section-head.center { flex-direction: column; align-items: center; text-align: center; gap: 14px; }
 .section-head.center p { max-width: 480px; }
+.group-about {
+  padding: 90px 0;
+  border-bottom: 1px solid var(--line);
+}
+
+.group-about-content {
+  max-width: 760px;
+  text-align: center;
+}
+
+.group-about h2 {
+  margin-bottom: 28px;
+}
+
+.group-about-content > p:not(.kicker) {
+  max-width: 680px;
+  margin: 0 auto 18px;
+  color: var(--muted);
+  font-size: 1.05rem;
+  line-height: 1.8;
+}
+.team-section {
+  padding-top: 80px;
+}
 .intro-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 70px; align-items: center; }
 .intro-grid img { width: 100%; height: 440px; object-fit: cover; border-radius: 0; filter: saturate(.7); }
 .kicker { color: var(--accent); font-size: .85rem; font-weight: 800; letter-spacing: .08em; text-transform: uppercase; }

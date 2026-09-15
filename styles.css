@@ -81,8 +81,11 @@ h3 { font-size: 1.25rem; }
 .project-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 22px; }
 .project-card { overflow: hidden; background: var(--white); border: 1px solid var(--line); border-radius: 0; box-shadow: none; }
 .project-card img { width: 100%; height: 205px; object-fit: cover; }
+.project-card img.natural { height: auto; }
 .project-card-body { padding: 24px; }
 .project-card-body p { color: var(--muted); font-size: .94rem; }
+.project-card-body .project-link { display: inline-block; margin-top: 10px; color: var(--accent-dark); font-weight: 700; font-size: .9rem; }
+.project-card-body .project-link:hover { text-decoration: underline; }
 .tag { display: inline-block; margin-bottom: 13px; color: var(--accent); font-size: .72rem; font-weight: 800; letter-spacing: .08em; text-transform: uppercase; }
 
 .team-section { background: #e8e6df; border-bottom: 1px solid var(--line); }
